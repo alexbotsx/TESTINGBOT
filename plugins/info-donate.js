@@ -14,8 +14,8 @@ const handler = async (m, { conn, usedPrefix, command }) => {
 │ • PayPal: paypal.me/BrunoSob 💰
 │
 │ 💬 *Otras formas:*
-│ Contáctame: @5219996125657
-│ Numero: wa.me/5219996125657
+│ Contáctame: @5198554545152
+│ Numero: wa.me/5198554545152
 │
 │ 📝 *Nota:* Toda donación
 │ nos ayuda a crecer juntos 🌱
@@ -26,7 +26,7 @@ const handler = async (m, { conn, usedPrefix, command }) => {
    const document = doc[Math.floor(Math.random() * doc.length)];
    
    const buttonMessage = {
-     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
+     'document': {url: `https://github.com/ANTOBOT/ANTOBOT`},
      'mimetype': `application/${document}`,
      'fileName': `💖 DONACIONES 💖`,
      'fileLength': 99999999999999,
@@ -36,7 +36,7 @@ const handler = async (m, { conn, usedPrefix, command }) => {
        'isForwarded': true,
        'mentionedJid': conn.parseMention(donar),
        'externalAdReply': {
-         'mediaUrl': 'https://github.com/BrunoSobrino/TheMystic-Bot-MD',
+         'mediaUrl': 'https://github.com/ANTOBOT/ANTOBOT',
          'mediaType': 2,
          'previewType': 'pdf',
          'title': '💖 DONACIONES - Apoya el proyecto',
@@ -67,7 +67,7 @@ const handler = async (m, { conn, usedPrefix, command }) => {
 • PayPal: paypal.me/BrunoSob
 
 💬 *Otras formas:*
-Contáctame: @5219996125657
+Contáctame: @5198554545152
 
 ¡Gracias por tu apoyo! 🙏`;
    

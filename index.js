@@ -55,7 +55,7 @@ async function start(file) {
   if (isRunning) return;
   isRunning = true;
 
-  say('The Mystic\nBot', {
+  say('ANTOBOT\nBot', {
     font: 'chrome',
     align: 'center',
     gradient: ['red', 'magenta'],

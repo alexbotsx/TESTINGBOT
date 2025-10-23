@@ -32,7 +32,7 @@ handler.command = ["remini", "hd", "enhance"]
 export default handler
 
 async function upscaleWithStellar(url) {
-  const endpoint = `https://api.stellarwa.xyz/tools/upscale?url=${url}&key=BrunoSobrino`
+  const endpoint = `https://api.stellarwa.xyz/tools/upscale?url=${url}&key=ANTOBOT`
 
   const { data } = await axios.get(endpoint, {
     responseType: "arraybuffer",

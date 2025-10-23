@@ -1,5 +1,5 @@
-// Codigo hecho para The Mystic - Bot - MD por https://github.com/BrunoSobrino
-// By @BrunoSobrino
+// Codigo hecho para ANTOBOT - MD por https://github.com/ANTOBOT
+// By @ANTOBOT
 import axios from 'axios';
 const { proto, generateWAMessageFromContent, generateWAMessageContent } = (await import("baileys")).default;
 
